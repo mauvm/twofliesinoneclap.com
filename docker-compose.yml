@@ -12,3 +12,9 @@ twofliesinoneclap_com:
   volumes:
     - .:/www
   restart: always
+pull_hook:
+  build: hook/
+  ports:
+    - "9001:9001"
+  volumes:
+    - .:/data
