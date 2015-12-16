@@ -1,4 +1,4 @@
-FROM ubuntu:14.04
+FROM node:5.1
 MAINTAINER Maurits van Mastrigt <maurits@nerdieworks.nl>
 
 ENV HOOK_PORT 9001
