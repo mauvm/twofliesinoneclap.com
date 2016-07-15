@@ -86,4 +86,4 @@ Note that this is a first draft. It will most likely change. I've only added the
 
 In the next post we'll discuss existing philosophies and configuration driven APIs. Two very interesting topics: what can we learn from others and does the silver bullet exist?
 
-<!--[Click here](post/add-2-philosophies-and-configuration-driven-apis) to read it.-->
+<!--[Click here](/post/add-2-philosophies-and-configuration-driven-apis/) to read it.-->

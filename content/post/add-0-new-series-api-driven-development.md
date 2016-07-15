@@ -38,4 +38,4 @@ In this blog post series we'll take a pragmatic approach into discovering the as
 
 ## Next Up
 
-In the next post I'll propose a concept use case. It will be used and refined throughout the series. [Click here](post/add-1-use-case) to read it.
+In the next post I'll propose a concept use case. It will be used and refined throughout the series. [Click here](/post/add-1-use-case/) to read it.
