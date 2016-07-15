@@ -20,7 +20,7 @@ In this blog post series we'll take a pragmatic approach into discovering the as
 - Existing philosophies, for example:
 	- Swagger
 	- JSONAPI
-	- HAL
+	- Hypertext Application Language (HAL) draft
 - Configuration driven APIs
 - Authentication
 - Defining resources
