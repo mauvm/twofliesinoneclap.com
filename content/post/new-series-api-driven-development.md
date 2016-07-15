@@ -30,7 +30,7 @@ In this blog post series we'll take a pragmatic approach into discovering the as
 	- Ordering
 	- Including relations
 - Performance (e.g. throttling)
-- Programming language, for example:
+- Framework and programming language, for example:
 	- Lumen (PHP)
 	- Express (NodeJS)
 	- Martini (Golang)
