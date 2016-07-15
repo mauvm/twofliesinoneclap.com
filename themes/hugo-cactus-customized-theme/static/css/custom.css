@@ -7,3 +7,6 @@
 #post-body ul ul {
 	margin-left: 30px;
 }
+#post-body pre {
+	margin: 0 -40px 20px;
+}
