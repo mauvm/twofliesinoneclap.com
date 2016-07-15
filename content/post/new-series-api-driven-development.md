@@ -67,8 +67,8 @@ An example:
 // We have underscore (`_`), `item`, and `newItem` (copy of item) available.
 // Return false to cancel insertion.
 { "fn": "
-	if ( ! _.contains(item.text, "test")) return false
-	newItem.addTag({ "label": "testing" })
+	if ( ! _.contains(item.text, 'test')) return false
+	newItem.addTag({ 'label': 'testing' })
 " }
 
 // HTTP POST /items
