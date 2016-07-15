@@ -16,6 +16,7 @@ This development process focuses on creating the API specification first and the
 
 In this blog post series we'll take a pragmatic approach into discovering the aspects of APIs and developing an general purpose API. Among others, these are the aspects we will dive into:
 
+- Use case
 - Existing philosophies, for example:
 	- Swagger
 	- JSONAPI
@@ -35,52 +36,6 @@ In this blog post series we'll take a pragmatic approach into discovering the as
 	- Express (NodeJS)
 	- Martini (Golang)
 
-## Use Case
-
-In this series I'd like to propose a use case, which we'll use as a reference point.
-As a side project I'm working on tool called [Bonsai](https://github.com/mauvm/bonsai).
-A web based task and idea manager that focuses on privacy.
-The concept is a web interface that does local offline storage, but optionally synchronizes to a cloud server.
-However I'd like to use my own server to store persist the tasks and ideas I write down.
-So in case my computer crashes, I wont lose all my entries.
-To accomplish this I've designed the following schematic:
-
-```
-Users -1:M-> Items
-Items -1:M-> Aggregates
-Items -1:M-> Tags
-```
-
-After registering a user, you can add items (tasks, ideas, notes, etc.) which will be ran through the added aggregates.
-Aggregates are JavaScript function bodies that run in a virtual machine (VM) and do the following:
-
-- Manipulate the item data
-- Create a new item
-- Add tags to the new item (metadata)
-- Optionally archive the old item
-
-An example:
-
-```json
-// HTTP POST /aggregates
-// On separate lines instead of `\n` for readability.
-// We have underscore (`_`), `item`, and `newItem` (copy of item) available.
-// Return false to cancel insertion.
-{ "fn": "
-	if ( ! _.contains(item.text, 'test')) return false
-	newItem.addTag({ 'label': 'testing' })
-" }
-
-// HTTP POST /items
-{ "title": "Hello world!", "text": "This is a test message." }
-// The "_archived = true" attribute will be added to this item
-// and another item will be added with the tag "testing".
-```
-
-At a later stage we have the option to add a real time aspect: providing the aggregated data.
-
 ## Next Up
 
-In the next post we'll discuss existing philosophies and configuration driven APIs. Two very interesting topics: what can we learn from others and does the silver bullet exist?
-
-<!--[Click here](post/add-1-philosophies-and-configuration-driven-apis) to read it.-->
+In the next post I'll propose a concept use case. It will be used and refined throughout the series. [Click here](post/add-1-use-case) to read it.
