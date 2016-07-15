@@ -61,8 +61,8 @@ Aggregates are JavaScript function bodies that run in a virtual machine (VM) and
 
 An example:
 
-```
-POST /aggregates
+```json
+// HTTP POST /aggregates
 // On separate lines instead of `\n` for readability.
 // We have underscore (`_`), `item`, and `newItem` (copy of item) available.
 // Return false to cancel insertion.
@@ -71,7 +71,7 @@ POST /aggregates
 	newItem.addTag({ "label": "testing" })
 " }
 
-POST /items
+// HTTP POST /items
 { "title": "Hello world!", "text": "This is a test message." }
 // The "_archived = true" attribute will be added to this item
 // and another item will be added with the tag "testing".
@@ -81,4 +81,6 @@ At a later stage we have the option to add a real time aspect: providing the agg
 
 ## Next Up
 
-In the next post we'll discuss existing philosophies and configuration driven APIs. Two very interesting topics: what can we learn from others and does the silver bullet exist? [Click here](post/add-1-philosophies-and-configuration-driven-apis) to read it.
+In the next post we'll discuss existing philosophies and configuration driven APIs. Two very interesting topics: what can we learn from others and does the silver bullet exist?
+
+<!--[Click here](post/add-1-philosophies-and-configuration-driven-apis) to read it.-->
