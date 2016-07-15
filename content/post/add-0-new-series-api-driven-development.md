@@ -2,7 +2,7 @@
 date = "2016-07-15T08:16:35Z"
 description = ""
 author = "Maurits"
-title = "New Series: API Driven Development"
+title = "ADD 0: New Series! API Driven Development"
 +++
 
 Modern systems are shifting towards service-oriented architectures (SOA). Mostly in the form of microservices. By splitting up the system into multiple components with their own code bases. This makes the system language agnostic. Meaning a development team is no longer restricted to using a few programminging languages. It allows software engineers to pick the right programming language for the service they need to develop. Every language has it's own aspects: Java is very maintainable, but does not always deliver optimal performance (since it's running in a virtual machine). Golang - for example - is less maintainble, but very robust and performant. And since the services are usually small, rewriting it in a more modern or suitable language becomes less work and has less impact on the system as a whole.
