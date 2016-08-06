@@ -46,8 +46,8 @@ functionality. I’m also thinking of building a assistant which help you to
 shift gears on the correct moment to save fuel.
 
 ## Open source
-Ted is going to open source is going to licensed under [Mozilla Public
-License][mpl].  You can find the project on [GitHub][github].
+Ted is open source and is licensed under [Mozilla Public License][mpl].  You
+can find the project on [GitHub][github].
 
 [touch screen]: https://www.raspberrypi.org/blog/the-eagerly-awaited-raspberry-pi-display/
 [mpl]: https://github.com/OrangeTux/Ted/blob/master/LICENSE
