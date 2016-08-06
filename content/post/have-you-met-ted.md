@@ -39,7 +39,7 @@ I’m going to start with creating a virtual car dashboard showing metrics and
 stats obtained using the OBD-II connector. In the [next post]({{< relref
 "post/obd-ii-elm327-and-python.md" >}}) you can read more about the OBD-II
 connector. I’ve to descide what display server and GUI library to use.
-Currently I don’t even have descided what language(s) I’m going to use.
+Currently I don’t even have decided what language(s) I’m going to use.
 
 In a later stage I want to add features to control the audio and navigation
 functionality. I’m also thinking of building a assistant which help you to
@@ -48,6 +48,8 @@ shift gears on the correct moment to save fuel.
 ## Open source
 Ted is open source and is licensed under [Mozilla Public License][mpl].  You
 can find the project on [GitHub][github].
+
+Read the next post in this series: [TED1: OBD-II, ELM327 and Python]({{ <relref "post/obd-ii-elm327-and-python.md">}}).
 
 [touch screen]: https://www.raspberrypi.org/blog/the-eagerly-awaited-raspberry-pi-display/
 [mpl]: https://github.com/OrangeTux/Ted/blob/master/LICENSE
