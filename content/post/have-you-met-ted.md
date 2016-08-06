@@ -36,9 +36,10 @@ Currently I don’t know if I stay with the Raspberry Pi or if I switch to
 different hardware later on in the process.
 
 I’m going to start with creating a virtual car dashboard showing metrics and
-stats obtained using the OBD-II connector. In the next post you can read more
-about the OBD-II connector. I’ve to descide what display server and GUI library
-to use. Currently I don’t even have descided what language(s) I’m going to use.
+stats obtained using the OBD-II connector. In the [next post]({{< relref
+"post/obd-ii-elm327-and-python.md" >}}) you can read more about the OBD-II
+connector. I’ve to descide what display server and GUI library to use.
+Currently I don’t even have descided what language(s) I’m going to use.
 
 In a later stage I want to add features to control the audio and navigation
 functionality. I’m also thinking of building a assistant which help you to

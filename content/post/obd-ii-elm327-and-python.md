@@ -7,7 +7,7 @@ slug = "obd-ii-elm327-and-python"
 author = "Auke Willem Oosterhoff"
 +++
 
-In the [previous post]({{ < relref "post/have-you-met-ted.md" >}}) I
+In the [previous post]({{< relref "post/have-you-met-ted.md" >}}) I
 introduced you to Ted, a car computer that I plan to build. In this posts I
 describe my first steps: getting live data from the car using the OBD-II
 connector and Python.
