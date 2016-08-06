@@ -1,6 +1,6 @@
 +++
-date = "2016-08-06"
-description = "Introducing Ted, a car computer I'm going to build myself."
+date = "2016-08-06T13:00:00+01:00"
+description = "Introducing Ted, a car computer I'm going to build."
 title = "TED0: Have you met Ted?"
 series = ["Ted"]
 slug = "have-you-met-ted"

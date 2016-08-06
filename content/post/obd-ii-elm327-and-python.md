@@ -1,5 +1,5 @@
 +++
-date = "2016-08-06"
+date = "2016-08-06T14:00:00+01:00"
 description = "Read live data from a car using the OBD-connector and Python."
 title = "TED1: OBD-II, ELM327 and Python"
 series = ["Ted"]
