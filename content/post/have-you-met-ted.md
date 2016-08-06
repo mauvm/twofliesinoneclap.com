@@ -9,7 +9,7 @@ author = "Auke Willem Oosterhoff"
 
 Recently I bought my first car. It’s a 2006 Smart Forfour. It’s just a normal
 car without fancy features. The dashboard contains 2 gauges showing the speed
-and the RPM. A handfull indicicators show if my the engine has a failure or if
+and the RPM. A handfull indicators show if my the engine has a failure or if
 a turn signal is enabled. A little display shows how many kilometers the care
 drove, what time it is and how much fuel is left.
 
