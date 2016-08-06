@@ -45,7 +45,7 @@ chip by sending commands. In order to get the current speed of the car you send
 010D.  010D is de PID of the current speed. The ELM327 controller translates
 this command. In my case it sends out a request on the CAN bus.
 
-## Python-ODB
+## Python-OBD
 Because I couldn’t get the Bluetooth adapter working on my laptop I bought this
 [OBD-II USB adapter][usb adapter] as well. After plugging in in my laptop (and
 starting the engine) it comes up as a serial device at /dev/ttyUSB0.
